@@ -1,0 +1,50 @@
+body {
+	background-image : url("../img/wave.png");
+	background-repeat : repeat;
+	background-position : center center;
+}
+
+div.upvote {
+	width : 3em;
+	float : right;
+}
+
+h4, #stars, .reviewStars {
+	display : inline;
+	vertical-align: text-bottom;
+}
+
+#description, p {
+	width : 50%;
+}
+
+#inputStar {
+	margin : 1em;
+}
+
+#product {
+	width : 50%;
+	height : auto;
+}
+
+.btn-danger {
+	float : left;
+}
+
+.rating {
+	display : block;
+	padding-top : 1em;
+	padding-bottom : 1em;
+}
+
+.reviews {
+	background-color : #d3d3d3;
+	border-radius : .5em;
+	padding : 2em;
+	margin-bottom : 1em;
+}
+
+.reviewOp {
+	width : 100%;
+}
+
