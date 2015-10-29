@@ -106,7 +106,6 @@ var addReview = function(item) {
 	var downvote = item.get('downvote')
 	total += stars;
 
-	alert(stars);
 	// Append div that includes data from review
 	var div = $('<div class="reviews"> <div class="rating"> <div class="reviewStars" id="star' + reviewCount + '"></div> <h4> ' + title + 
 		'</h4><div id="topic" class="upvote"> <a class="upvote" id="up' + reviewCount +'"></a> <a class="downvote" id="down' + reviewCount +
